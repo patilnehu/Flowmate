@@ -56,8 +56,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-muted-foreground">
+            {/* <p>🔒 Flowmate respects your privacy. All data is stored securely and never shared with third parties.</p> */}
             <p>
-              Built with 💖 by Neha — empowering wellness through tech & yoga.
+              © {new Date().getFullYear()} Flowmate | Built with 💖 by Neha —
+              empowering wellness through tech & yoga.
             </p>
           </div>
         </div>

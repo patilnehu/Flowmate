@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Brain, Flower2, Heart, Leaf, MessageCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight text-balance">
-              Flowmate — Your AI-powered Menstrual Wellness Companion 🌷
+              Flowmate — Empowering Wellness Through Tech & Yoga. 🌷
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Track your cycle, balance your mood, explore yoga & natural
@@ -18,12 +19,14 @@ export default function Home() {
               guide.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button
-                size="lg"
-                className="bg-[#A64D4D] hover:bg-[#A64D4DF2] text-white"
-              >
-                Start Tracking
-              </Button>
+              <Link href="/tracker">
+                <Button
+                  size="lg"
+                  className="bg-[#A64D4D] hover:bg-[#A64D4DF2] text-white"
+                >
+                  Start Tracking
+                </Button>
+              </Link>
               <Button
                 size="lg"
                 variant="outline"
@@ -40,7 +43,7 @@ export default function Home() {
           <div className="relative h-96 md:h-full min-h-96 bg-linear-to-br from-accent/20 to-[#A64D4D]/10 rounded-2xl flex items-center justify-center">
             <div className="text-center space-y-4">
               <Flower2 className="w-24 h-24 mx-auto text-[#A64D4D]/40" />
-              <p className="text-muted-foreground">Wellness Illustration</p>
+              {/* <p className="text-muted-foreground">Wellness Illustration</p> */}
             </div>
           </div>
         </div>
@@ -170,9 +173,11 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center">
-            <Button size="lg" className="bg-[#A64D4D] hover:bg-[#A64D4D]/90">
-              Explore Yoga & Remedies
-            </Button>
+            <Link href="/yoga">
+              <Button size="lg" className="bg-[#A64D4D] hover:bg-[#A64D4D]/90">
+                Explore Yoga & Remedies
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

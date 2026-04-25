@@ -9,33 +9,35 @@ export default function Header() {
           <div className="text-2xl font-bold text-[#A64D4D]">Flowmate</div>
           <div className="flex gap-8 items-center">
             <Link
-              href=""
+              href="/tracker"
               className="text-foreground hover:text-[#A64D4D] transition"
             >
               Tracker
             </Link>
             <Link
-              href=""
+              href="/yoga"
               className="text-foreground hover:text-[#A64D4D] transition"
             >
               Yoga
             </Link>
             <Link
-              href=""
+              href="/learn"
               className="text-foreground hover:text-[#A64D4D] transition"
             >
               Learn
             </Link>
             <Link
-              href=""
+              href="/about"
               className="text-foreground hover:text-[#A64D4D] transition"
             >
               About
             </Link>
           </div>
-          <Button className="bg-[#A64D4DE6] hover:bg-[#A64D4D]">
-            Get Started
-          </Button>
+          <Link href="/chat">
+            <Button className="bg-[#A64D4DE6] hover:bg-[#A64D4D]">
+              Get Started
+            </Button>
+          </Link>
         </div>
       </nav>
     </>

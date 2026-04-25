@@ -9,16 +9,19 @@ export default function Footer() {
                 Quick Links
               </h3>
               <div className="space-y-2 text-muted-foreground">
-                <a href="#" className="hover:text-primary transition block">
+                <a href="/home" className="hover:text-primary transition block">
                   Home
                 </a>
-                <a href="#" className="hover:text-primary transition block">
+                <a
+                  href="/tracker"
+                  className="hover:text-primary transition block"
+                >
                   Tracker
                 </a>
-                <a href="#" className="hover:text-primary transition block">
+                <a href="/yoga" className="hover:text-primary transition block">
                   Yoga
                 </a>
-                <a href="#" className="hover:text-primary transition block">
+                <a href="/chat" className="hover:text-primary transition block">
                   Chat
                 </a>
               </div>

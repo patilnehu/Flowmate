@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Brain, Flower2, Heart, Leaf, MessageCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,13 +25,15 @@ export default function Home() {
               >
                 Start Tracking
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-[#A64D4D] text-[#A64D4D] hover:bg-[#A64D4D]/10 bg-transparent"
-              >
-                Chat with Aira
-              </Button>
+              <Link href="/chat">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-[#A64D4D] text-[#A64D4D] hover:bg-[#A64D4D]/10 bg-transparent"
+                >
+                  Chat with Aira
+                </Button>
+              </Link>
             </div>
             <p className="text-sm text-muted-foreground italic pt-4">
               "Understand your body. Embrace your flow. Feel balanced every
@@ -188,9 +191,11 @@ export default function Home() {
             cramps to cravings, Aira offers guidance based on science and
             compassion.
           </p>
-          <Button size="lg" className="bg-[#A64D4D] hover:bg-[#A64D4D]/90">
-            Chat with Aira Now
-          </Button>
+          <Link href="/chat">
+            <Button size="lg" className="bg-[#A64D4D] hover:bg-[#A64D4D]/90">
+              Chat with Aira Now
+            </Button>
+          </Link>
           <p className="text-sm text-muted-foreground italic">
             Your data stays private and secure.
           </p>

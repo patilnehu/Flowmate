@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Flowmate — Your AI-powered Menstrual Wellness Companion 🌷
+Flowmate is a comprehensive wellness platform designed to help users understand and nurture their menstrual cycles. By combining cycle tracking with AI-driven guidance, yoga, and natural remedies, Flowmate empowers users to align their daily lives with their body's natural rhythms.
 
-## Getting Started
+🌟 Key Features
+Cycle & Mood Tracker: Log periods, predict upcoming cycles, and monitor emotional patterns to better understand your body's rhythm.
 
-First, run the development server:
+Aira (AI Companion): A personal health guide that provides science-based answers to questions about PCOS, symptoms, and self-care.
 
-```bash
+Holistic Remedies: Access a curated library of natural remedies and wellness tips for each phase of the cycle.
+
+Yoga for Wellness: Specialized routines including:
+
+Balasana (Child's Pose): Targeted relief for menstrual cramps.
+
+Anulom Vilom: Focused breathing for mental clarity and calm.
+
+Surya Namaskar: Recommended for hormonal balance and PCOS management.
+
+Educational Resources: In-depth information on the four cycle phases: Menstrual, Follicular, Ovulation, and Luteal.
+
+🛠️ Tech Stack
+Frontend: React / Next.js (as suggested by the local development environment)
+
+Styling: Tailwind CSS (for the modern, clean UI)
+
+AI Integration: LLM-powered chat interface (Aira)
+
+Deployment: Optimized for web accessibility and responsive design
+
+🚀 Getting Started
+Prerequisites
+Node.js (v18 or higher)
+
+npm or yarn
+
+Installation
+Clone the repository:
+
+Bash
+git clone https://github.com/username/flowmate.git
+Navigate to the project directory:
+
+Bash
+cd flowmate
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser to view the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧘 Wellness Philosophy
+Flowmate views the menstrual cycle not just as "days on a calendar," but as a rhythmic cycle that influences energy, mood, and physical health. The platform encourages users to "Move with kindness and heal with balance."
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🛡️ Privacy
+We prioritize user privacy. All cycle data and personal health conversations with Aira are kept private and secure.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with 💖 by Neha — Empowering wellness through tech & yoga.

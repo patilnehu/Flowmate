@@ -19,7 +19,7 @@ Surya Namaskar: Recommended for hormonal balance and PCOS management.
 Educational Resources: In-depth information on the four cycle phases: Menstrual, Follicular, Ovulation, and Luteal.
 
 🛠️ Tech Stack
-Frontend: React / Next.js (as suggested by the local development environment)
+Frontend: React / Next.js 
 
 Styling: Tailwind CSS (for the modern, clean UI)
 
@@ -37,7 +37,7 @@ Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/username/flowmate.git
+git clone [https://github.com/username/flowmate.git]
 Navigate to the project directory:
 
 Bash
